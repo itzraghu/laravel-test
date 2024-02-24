@@ -1,16 +1,17 @@
-# Cyber-Duck Laravel task
+# Steps to run
 
-Documentation should be kept in the `docs` folder
+-   clone repo
+-   `composer install`
+-   create database, update name in env file and run command `php artisan migrate` then `php artisan db:seed`
+-   once table migrated and tables created, run command `php artisan serve` and open http://localhost:8000/sales
 
-## TABLE OF CONTENTS
+| Key      | Value               |
+| -------- | ------------------- |
+| Username | `sales@coffee.shop` |
+| password | `password`          |
 
-| Title                  | File                                 |
-|------------------------|--------------------------------------|
-| LOCAL DEV SETUP        | `docs/01-local-development-setup.md` |
-| TESTING                | `docs/02-testing.md`                 |
-| PACKAGES               | `docs/03-packages.md`                |
-| LOCAL DATA             | `docs/04-local-data.md`              |
+---
 
-----
+# Steps to run unit tests
 
-Made with ♥ by [Cyber-Duck Ltd](https://www.cyber-duck.co.uk).
+-   Go to root pe project and run command `php artisan test` in terminal
