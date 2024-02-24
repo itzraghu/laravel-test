@@ -2,7 +2,7 @@
 
 -   clone repo
 -   `composer install`
--   create database, update name in env file and run command `php artisan migrate` then `php artisan db:seed`
+-   create database, update name in env file and run command `php artisan migrate` then `php artisan db:seed` & `php artisan db:seed --class=ProductSeeder`
 -   once table migrated and tables created, run command `php artisan serve` and open http://localhost:8000/sales
 
 | Key      | Value               |
